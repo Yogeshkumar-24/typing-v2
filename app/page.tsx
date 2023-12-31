@@ -731,6 +731,10 @@ const Page: React.FC<PageProps> = ({ randomWords: initialRandomWords }) => {
         )}
         <div className="sm:w-[600px] md:w-[760px] w-[400px] flex px-12">
           <input
+            autoCapitalize="off"
+            autoComplete="off"
+            autoCorrect="off"
+            spellCheck = "false"
             autoFocus
             ref={inputRef}
             value={text}
