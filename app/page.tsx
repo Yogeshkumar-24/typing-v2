@@ -381,7 +381,7 @@ const Page: React.FC<PageProps> = ({ randomWords: initialRandomWords }) => {
 
   const time = 60;
   const timerStartedRef = useRef(false);
-  const [mode, setMode] = useState(1);
+  const [mode, setMode] = useState(0);
   const [intervalId, setIntervalId] = useState<NodeJS.Timeout | null>(null);
   const [loading, setLoading] = useState(true);
   // const [randomWords, setRandomWords] = useState(initialRandomWords);
